@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA65294C2552F9CE000B333C /* FrameworkiOS8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA65294B2552F9CE000B333C /* FrameworkiOS8.framework */; };
+		BAF189DE2555334A0000306D /* FrameworkiOS8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF189DD2555334A0000306D /* FrameworkiOS8.framework */; };
 		C6F6B3591CFBE1C800C56008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F6B3581CFBE1C800C56008 /* main.m */; };
 		C6F6B35C1CFBE1C800C56008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F6B35B1CFBE1C800C56008 /* AppDelegate.m */; };
 		C6F6B35F1CFBE1C800C56008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F6B35E1CFBE1C800C56008 /* ViewController.m */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA65294B2552F9CE000B333C /* FrameworkiOS8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FrameworkiOS8.framework; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/FrameworkiOS8.framework"; sourceTree = "<group>"; };
+		BAF189DD2555334A0000306D /* FrameworkiOS8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FrameworkiOS8.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/FrameworkiOS8.framework"; sourceTree = "<group>"; };
 		C6F6B3541CFBE1C800C56008 /* FrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F6B3581CFBE1C800C56008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6F6B35A1CFBE1C800C56008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA65294C2552F9CE000B333C /* FrameworkiOS8.framework in Frameworks */,
+				BAF189DE2555334A0000306D /* FrameworkiOS8.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +45,7 @@
 		BA65294A2552F9CE000B333C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA65294B2552F9CE000B333C /* FrameworkiOS8.framework */,
+				BAF189DD2555334A0000306D /* FrameworkiOS8.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

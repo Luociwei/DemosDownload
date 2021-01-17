@@ -161,6 +161,11 @@ static unsigned short const CCNEscapeKey = 53;
     }
     [self setupToolbar];
 }
+- (void)addPreferencesViewController:(id<CCNPreferencesWindowControllerProtocol>)viewController {
+    NSAssert([viewController conformsToProtocol:@protocol(CCNPreferencesWindowControllerProtocol)], @"ERROR: The viewController [%@] must conform to protocol <CCNPreferencesWindowControllerProtocol>", [viewController class]);
+    
+    [self.viewControllers addObject:viewController];
+}
 
 - (void)showPreferencesWindow {
     self.window.alphaValue = 0.0;
@@ -233,11 +238,7 @@ static unsigned short const CCNEscapeKey = 53;
     return maxSize;
 }
 
-- (void)addPreferencesViewController:(id<CCNPreferencesWindowControllerProtocol>)viewController {
-    NSAssert([viewController conformsToProtocol:@protocol(CCNPreferencesWindowControllerProtocol)], @"ERROR: The viewController [%@] must conform to protocol <CCNPreferencesWindowControllerProtocol>", [viewController class]);
 
-    [self.viewControllers addObject:viewController];
-}
 
 - (id<CCNPreferencesWindowControllerProtocol>)viewControllerWithIdentifier:(NSString *)identifier {
     for (id<CCNPreferencesWindowControllerProtocol> vc in self.viewControllers) {

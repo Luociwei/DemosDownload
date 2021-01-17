@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA6529472552F5EB000B333C /* Canvas 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6529462552F5EB000B333C /* Canvas 4.png */; };
+		BAF189F7255557270000306D /* DvpStimPanelBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAF189F6255557270000306D /* DvpStimPanelBundle.bundle */; };
 		C6F6B33C1CFBDE9E00C56008 /* FrameworkiOS8.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F6B33B1CFBDE9E00C56008 /* FrameworkiOS8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6F6B3461CFBDEC700C56008 /* FrameworkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F6B3431CFBDEC700C56008 /* FrameworkViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6F6B3471CFBDEC700C56008 /* FrameworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F6B3441CFBDEC700C56008 /* FrameworkViewController.m */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		BA6529462552F5EB000B333C /* Canvas 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Canvas 4.png"; sourceTree = "<group>"; };
+		BAF189F6255557270000306D /* DvpStimPanelBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DvpStimPanelBundle.bundle; sourceTree = "<group>"; };
 		C6F6B3381CFBDE9E00C56008 /* FrameworkiOS8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkiOS8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F6B33B1CFBDE9E00C56008 /* FrameworkiOS8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkiOS8.h; sourceTree = "<group>"; };
 		C6F6B33D1CFBDE9E00C56008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		C6F6B33A1CFBDE9E00C56008 /* FrameworkiOS8 */ = {
 			isa = PBXGroup;
 			children = (
+				BAF189F6255557270000306D /* DvpStimPanelBundle.bundle */,
 				BA6529462552F5EB000B333C /* Canvas 4.png */,
 				C6F6B3491CFBE00500C56008 /* Images.bundle */,
 				C6F6B33B1CFBDE9E00C56008 /* FrameworkiOS8.h */,
@@ -138,6 +141,7 @@
 			files = (
 				BA6529472552F5EB000B333C /* Canvas 4.png in Resources */,
 				C6F6B3481CFBDEC700C56008 /* FrameworkViewController.xib in Resources */,
+				BAF189F7255557270000306D /* DvpStimPanelBundle.bundle in Resources */,
 				C6F6B34A1CFBE00500C56008 /* Images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

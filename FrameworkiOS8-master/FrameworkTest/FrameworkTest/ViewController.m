@@ -54,8 +54,10 @@
 - (IBAction)onClickImageBtn:(id)sender
 {
     NSBundle *bundle = [NSBundle bundleForClass:[FrameworkViewController class]];
+    NSString *pic_path = [bundle.bundlePath stringByAppendingPathComponent:@"Images.bundle/LuFei"];
+    UIImage *image = [[UIImage alloc]initWithContentsOfFile:pic_path];
     
-    UIImage *image = [UIImage imageNamed:@"Images.bundle/LuFei" inBundle:bundle compatibleWithTraitCollection:nil];
+//    UIImage *image = [UIImage imageNamed:@"Images.bundle/LuFei" inBundle:bundle compatibleWithTraitCollection:nil];
     
     [self.imageview setImage:image];
     
