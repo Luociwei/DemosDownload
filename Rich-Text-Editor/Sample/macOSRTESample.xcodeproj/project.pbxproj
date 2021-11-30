@@ -14,8 +14,6 @@
 		342F5A1B206BF6DA0045E75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F5A1A206BF6DA0045E75A /* main.m */; };
 		342F5A26206BF6DA0045E75A /* macOSRTESampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F5A25206BF6DA0045E75A /* macOSRTESampleTests.m */; };
 		342F5A31206BF6DA0045E75A /* macOSRTESampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F5A30206BF6DA0045E75A /* macOSRTESampleUITests.m */; };
-		342F5A3F206BF6E40045E75A /* macOSRichTextEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342F5A3E206BF6E40045E75A /* macOSRichTextEditor.framework */; };
-		342F5A40206BF6E40045E75A /* macOSRichTextEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 342F5A3E206BF6E40045E75A /* macOSRichTextEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				342F5A40206BF6E40045E75A /* macOSRichTextEditor.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +63,6 @@
 		342F5A2C206BF6DA0045E75A /* macOSRTESampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSRTESampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342F5A30206BF6DA0045E75A /* macOSRTESampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOSRTESampleUITests.m; sourceTree = "<group>"; };
 		342F5A32206BF6DA0045E75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342F5A3E206BF6E40045E75A /* macOSRichTextEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = macOSRichTextEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342F5A3F206BF6E40045E75A /* macOSRichTextEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +93,6 @@
 		342F5A02206BF6DA0045E75A = {
 			isa = PBXGroup;
 			children = (
-				342F5A3E206BF6E40045E75A /* macOSRichTextEditor.framework */,
 				342F5A0D206BF6DA0045E75A /* macOSRTESample */,
 				342F5A24206BF6DA0045E75A /* macOSRTESampleTests */,
 				342F5A2F206BF6DA0045E75A /* macOSRTESampleUITests */,
